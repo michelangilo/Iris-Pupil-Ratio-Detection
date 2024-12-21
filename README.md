@@ -16,12 +16,10 @@ The following pre-processing was applied to each image:
   <li>Auto-orientation of pixel data (with EXIF-orientation stripping)</li>
   <li>Resize to 640x640 (Stretch)</li>
 </ol>
-No image augmentation techniques were applied.
-<br>
-The dataset is divided into three parts: 310 training images, 90 validation images and 45 test images of the human eye.
-<br>
-Each part has its own <b>_annotations.csv</b> stored in the respective folder. 
-<br>
-<b>Detection Using YOLO-MobileNetV2</b> contains all three folders as the model is trained, validated and tested on the dataset.
-<br>
-<b>Detection Using mediapipe</b> contains the test folder, upon running <b>model.py</b>, it creates an <b>images</b> folder with the resultant test images.
+<ul>
+  <li>No image augmentation techniques were applied.</li>
+  <li>The dataset is divided into three parts: 310 training images, 90 validation images and 45 test images of the human eye.</li>
+  <li>Each part has its own <b>_annotations.csv</b> stored in the respective folder. </li>
+  <li><b>Detection Using YOLO-MobileNetV2</b> contains all three folders as the model is trained, validated and tested on the dataset.</li>
+  <li><b>Detection Using mediapipe</b> contains the test folder, upon running <b>model.py</b>, it creates an <b>images</b> folder with the resultant test images.</li>
+</ul>
